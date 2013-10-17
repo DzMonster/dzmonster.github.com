@@ -1,0 +1,10 @@
+# jekyll settings
+baseurl:
+pygments: true
+safe: true
+auto: true
+markdown: rdiscount
+lsi: false
+permalink: /:categories/:title
+exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, CNAME]
+excerpt_separator: "\n\n"
